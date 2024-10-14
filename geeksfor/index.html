@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeeksforGeeks Inspired</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to GeeksforGeeks Inspired</h1>
+        <nav>
+            <ul>
+                <li><a href="#home.html">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="nav-item" style="float:right; margin-left:20px;">
+                    <a href="login.html">Login</a>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <a href="ai.html">AI Page</a> <br>
+            <a href="web.html">Web Page</a> <br>
+            <a href="mllab.html">ML Lab Page</a> <br>
+            <a href="weblab.html">Web Lab Page</a> <br>
+        </section>
+
+        <section id="articles" class="articles">
+            <h2>Latest Articles</h2>
+            <div class="article">
+                <h3>Understanding JavaScript: The Language of the Web</h3>
+                <p>JavaScript is a versatile language that allows you to create dynamic and interactive web applications. This article covers the fundamentals of JavaScript, including variables, data types, functions, and events.</p>
+                <button onclick="alert('Read More about JavaScript!')">Read More</button>
+            </div>
+            <div class="article">
+                <h3>CSS Flexbox Guide: Layout Made Easy</h3>
+                <p>Flexbox is a powerful layout module in CSS that provides an efficient way to arrange items in a container. This guide will help you understand how to use Flexbox to create responsive layouts.</p>
+                <button onclick="alert('Read More about CSS Flexbox!')">Read More</button>
+            </div>
+            <div class="article">
+                <h3>Introduction to Python: A Beginner’s Guide</h3>
+                <p>Python is a popular programming language known for its simplicity and readability. In this article, we’ll cover the basics of Python, including data structures, control flow, and functions.</p>
+                <button onclick="alert('Read More about Python!')">Read More</button>
+            </div>
+        </section>
+
+        <section id="courses">
+            <h2>Available Courses</h2>
+            <p>We offer a range of online courses to help you enhance your skills. Here are some of our popular courses:</p>
+            <ul>
+                <li><strong>Introduction to Python</strong>: Learn the fundamentals of Python programming with hands-on exercises.</li>
+                <li><strong>Web Development Bootcamp</strong>: Build full-fledged web applications using HTML, CSS, and JavaScript.</li>
+                <li><strong>Data Structures and Algorithms</strong>: Master essential data structures and algorithms in this comprehensive course.</li>
+                <li><strong>Machine Learning Basics</strong>: Dive into machine learning concepts and build your first model using Python.</li>
+                <li><strong>Responsive Web Design</strong>: Learn how to create websites that look great on all devices.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feedback, or suggestions, feel free to reach out!</p>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GeeksforGeeks Inspired</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
